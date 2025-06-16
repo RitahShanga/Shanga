@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shanga - Collezione di Collane Artigianali</title>
+    <style>
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fafafa;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header */
+        header {
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+        }
+
+        .logo {
+            font-size: 2.2rem;
+            font-weight: 300;
+            color: #2c2c2c;
+            letter-spacing: 3px;
+            font-family: 'Georgia', serif;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #666;
+            font-weight: 400;
+            transition: color 0.3s ease;
+            position: relative;
+        }
+
+        nav a:hover {
+            color: #d4af37;
+        }
+
+        nav a::after {
+            content: '';
+            position: absolute;
+            width: 0;
+            height: 2px;
+            bottom: -5px;
+            left: 0;
+            background-color: #d4af37;
+            transition: width 0.3s ease;
+        }
+
+        nav a:hover::after {
+            width: 100%;
+        }
+
+        /* Hero Section */
+        .hero {
+            background: linear-gradient(135deg, #f5f5f5 0%, #e8e8e8 100%);
+            padding: 4rem 0;
+            text-align: center;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 300;
+            color: #2c2c2c;
+            margin-bottom: 1rem;
+            letter-spacing: 4px;
+            font-family: 'Georgia', serif;
+        }
+
+        .hero p {
+            font-size: 1.3rem;
+            color: #666;
+            max-width: 700px;
+            margin: 0 auto 2rem;
+            line-height: 1.8;
+        }
+
+        .cta-button {
+            display: inline-block;
+            padding: 15px 35px;
+            background: #2c2c2c;
+            color: white;
+            text-decoration: none;
+            border-radius: 2px;
+            transition: all 0.3s ease;
+            font-weight: 400;
+            letter-spacing: 1px;
+            font-size: 1.1rem;
+        }
+
+        .cta-button:hover {
+            background: #d4af37;
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        }
+
+        /* Products Section */
+        .products {
+            padding: 4rem 0;
+            background: white;
+        }
+
+        .section-title {
+            text-align: center;
+            font-size: 2.8rem;
+            font-weight: 300;
+            color: #2c2c2c;
+            margin-bottom: 1rem;
+            letter-spacing: 2px;
+            font-family: 'Georgia', serif;
+        }
+
+        .product-count {
+            text-align: center;
+            font-size: 1.1rem;
+            color: #666;
+            margin-bottom: 3rem;
+        }
+
+        .product-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 2.5rem;
+            margin-top: 2rem;
+        }
+
+        .product-card {
+            background: white;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 1px solid #f0f0f0;
+        }
+
+        .product-card:hover {
+            transform: translateY(-8px);
+            box-shadow: 0 15px 40px rgba(0,0,0,0.15);
+        }
+
+        .product-image {
+            width: 100%;
+            height: 280px;
+            object-fit: cover;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image {
+            transform: scale(1.05);
+        }
+
+        .product-info {
+            padding: 2rem;
+        }
+
+        .product-name {
+            font-size: 1.2rem;
+            font-weight: 500;
+            color: #2c2c2c;
+            margin-bottom: 0.8rem;
+            font-family: 'Georgia', serif;
+        }
+
+        .product-description {
+            color: #666;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        .product-id {
+            color: #999;
+            font-size: 0.85rem;
+            margin-top: 0.5rem;
+            font-style: italic;
+        }
+
+        /* Footer */
+        footer {
+            background: #2c2c2c;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+            margin-bottom: 2rem;
+        }
+
+        .footer-section h3 {
+            margin-bottom: 1rem;
+            color: #d4af37;
+            font-family: 'Georgia', serif;
+        }
+
+        .footer-section p,
+        .footer-section a {
+            color: #ccc;
+            text-decoration: none;
+            line-height: 1.8;
+        }
+
+        .footer-section a:hover {
+            color: #d4af37;
+        }
+
+        .footer-section ul {
+            list-style: none;
+            padding: 0;
+        }
+
+        .footer-section li {
+            margin-bottom: 0.8rem;
+            color: #ccc;
+            line-height: 1.6;
+        }
+
+        .footer-section strong {
+            color: #d4af37;
+        }
+
+        .social-links {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            margin-top: 1rem;
+        }
+
+        .social-links a {
+            color: #ccc;
+            font-size: 1.1rem;
+            transition: color 0.3s ease;
+        }
+
+        .social-links a:hover {
+            color: #d4af37;
+        }
+
+        /* Responsive Design */
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+                letter-spacing: 2px;
+            }
+
+            .section-title {
+                font-size: 2.2rem;
+            }
+
+            nav ul {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .header-content {
+                flex-direction: column;
+                gap: 1rem;
+            }
+
+            .product-grid {
+                grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+                gap: 2rem;
+            }
+
+            .social-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+
+        /* Loading Animation */
+        .loading {
+            display: none;
+            text-align: center;
+            padding: 3rem;
+        }
+
+        .spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #d4af37;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading p {
+            color: #666;
+            font-size: 1.1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">SHANGA</div>
+                <nav>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#products">Prodotti</a></li>
+                        <li><a href="#contact">Contatti</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>SHANGA</h1>
+            <p>Scopri collane uniche e tradizionali realizzate con passione e patrimonio culturale. Ogni pezzo racconta una storia di eccellenza artigianale e bellezza senza tempo.</p>
+            <a href="#products" class="cta-button">Esplora la Collezione</a>
+        </div>
+    </section>
+
+    <section id="products" class="products">
+        <div class="container">
+            <h2 class="section-title">Collane Artigianali</h2>
+            <div class="product-count" id="productCount">Caricamento collezione...</div>
+
+            <div class="loading">
+                <div class="spinner"></div>
+                <p>Caricamento prodotti...</p>
+            </div>
+
+            <div class="product-grid" id="productGrid">
+                <!-- Products will be loaded here by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sui Nostri Gioielli</h3>
+                    <p>Siamo specializzati in gioielli artigianali che celebrano l'artigianato tradizionale e il patrimonio culturale Africano. Ogni pezzo è unico e realizzato con i migliori materiali.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Informazioni di Contatto</h3>
+                    <!-- <p>Email: info@shanga.it</p> -->
+                    <p>Telefono: <a href="tel:+393935601991">+39 393 560 1991</a></p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/rwnkenya" target="_blank">📘 Facebook</a>
+                        <a href="https://instagram.com/rwnkenya" target="_blank">📷 Instagram</a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h3>Assistenza Clienti</h3>
+                    <ul>
+                        <li><strong>Spedizione:</strong> Spediamo in tutta Italia entro 2-3 giorni lavorativi.</li>
+                        <li><strong>Cura:</strong> Conservare in luogo asciutto, pulire delicatamente con panno morbido, evitare contatto con profumi e creme.</li>
+                        <li><strong>Personalizzazioni:</strong> Offriamo servizi di personalizzazione e riparazioni. Contattaci per maggiori informazioni.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // All products data
+        let allProducts = [];
+
+        // Load inventory data
+        async function loadInventory() {
+            try {
+                const response = await fetch('inventory_complete.json');
+                const data = await response.json();
+                allProducts = data.products;
+                
+                // Update product count
+                document.getElementById('productCount').textContent = `${allProducts.length} collane artigianali uniche`;
+                
+                displayProducts(allProducts);
+            } catch (error) {
+                console.error('Errore nel caricamento dell\'inventario:', error);
+                // If JSON fails, load all images directly
+                loadAllImagesDirectly();
+            }
+        }
+
+        // Load all images directly from the images_new folder
+        async function loadAllImagesDirectly() {
+            // Create products for all images in the second upload
+            const imageNames = [
+                'PNG image 1.png', 'PNG image 2.png', 'PNG image 3.png', 'PNG image 4.png', 'PNG image 5.png',
+                'PNG image 6.png', 'PNG image 7.png', 'PNG image 8.png', 'PNG image 9.png', 'PNG image 10.png',
+                'PNG image 11.png', 'PNG image 12.png', 'PNG image 13.png', 'PNG image 14.png', 'PNG image 15.png',
+                'PNG image 16.png', 'PNG image 17.png', 'PNG image 18.png', 'PNG image 19.png', 'PNG image 20.png',
+                'PNG image 21.png', 'PNG image 22.png', 'PNG image 23.png', 'PNG image 24.png', 'PNG image 25.png',
+                'PNG image 26.png', 'PNG image 27.png', 'PNG image 28.png', 'PNG image 29.png', 'PNG image 30.png',
+                'PNG image 31.png', 'PNG image 32.png', 'PNG image 33.png', 'PNG image 34.png', 'PNG image 35.png',
+                'PNG image 36.png', 'PNG image 37.png', 'PNG image 38.png', 'PNG image 39.png', 'PNG image 40.png',
+                'PNG image 41.png', 'PNG image 42.png', 'PNG image 43.png', 'PNG image 44.png', 'PNG image 45.png',
+                'PNG image 46.png', 'PNG image 47.png', 'PNG image 48.png', 'PNG image 49.png', 'PNG image 50.png',
+                'PNG image 51.png', 'PNG image 52.png', 'PNG image 53.png', 'PNG image 54.png', 'PNG image 55.png',
+                'PNG image 56.png', 'PNG image 57.png', 'PNG image 58.png', 'PNG image 59.png', 'PNG image 60.png',
+                'PNG image 61.png', 'PNG image 62.png', 'PNG image 63.png', 'PNG image 64.png', 'PNG image 65.png',
+                'PNG image 66.png', 'PNG image 67.png', 'PNG image 68.png', 'PNG image 69.png', 'PNG image 70.png',
+                'PNG image 71.png', 'PNG image 72.png', 'PNG image 73.png', 'PNG image 74.png', 'PNG image 75.png',
+                'PNG image 76.png', 'PNG image 77.png', 'PNG image 78.png', 'PNG image 79.png', 'PNG image 80.png',
+                'PNG image 81.png', 'PNG image 82.png', 'PNG image 83.png', 'PNG image 84.png', 'PNG image 85.png',
+                'PNG image 86.png', 'PNG image 87.png', 'PNG image 88.png', 'PNG image 89.png', 'PNG image 90.png',
+                'PNG image 91.png', 'PNG image 92.png', 'PNG image 93.png', 'PNG image 94.png', 'PNG image 95.png',
+                'PNG image 96.png', 'PNG image 97.png', 'PNG image 98.png', 'PNG image 99.png', 'PNG image 100.png',
+                'PNG image 101.png', 'PNG image 102.png', 'PNG image 103.png', 'PNG image 104.png', 'PNG image 105.png',
+                'PNG image 106.png', 'PNG image 107.png',
+
+            ];
+            
+            allProducts = imageNames.map((filename, index) => {
+            const i = index + 1;
+            let price = 0;
+
+                if (i >= 1 && i <= 12) price = 20;
+                else if (i >= 13 && i <= 22) price = 25;
+                else if (i >= 23 && i <= 35) price = 25;
+                else if (i >= 36 && i <= 45) price = 13;
+                else if (i >= 46 && i <= 49) price = 15;
+                else if (i >= 50 && i <= 58) price = 25;
+                else if (i >= 59 && i <= 65) price = 15;
+                else if (i >= 66 && i <= 79) price = 18;
+                else if (i >= 80 && i <= 81) price = 15;
+                else if (i >= 82 && i <= 83) price = 18;
+                else if (i >= 84 && i <= 93) price = 15;
+                else if (i >= 94 && i <= 99) price = 40;
+                else if (i >= 100 && i <= 101) price = 15;
+                else if (i >= 102 && i <= 107) price = 20;
+
+                return {
+                    id: `collana_${String(i).padStart(3, '0')}`,
+                    name: `Collana Artigianale ${i}`,
+                    description: 'Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.',
+                    filename: filename,
+                    price: price
+    };
+});
+
+            
+            // Update product count
+            document.getElementById('productCount').textContent = `${allProducts.length} collane uniche`;
+            
+            displayProducts(allProducts);
+        }
+
+        // Display products in the grid
+        function displayProducts(products) {
+            const productGrid = document.getElementById('productGrid');
+            const loading = document.querySelector('.loading');
+            
+            loading.style.display = 'block';
+            
+            setTimeout(() => {
+                productGrid.innerHTML = '';
+                
+                products.forEach(product => {
+                    const productCard = document.createElement('div');
+                    productCard.className = 'product-card';
+                    productCard.innerHTML = `
+                        <img src="ShangaImages/${product.filename}" alt="${product.name}" class="product-image">
+                        
+                             <!-- onerror="this.style.backgroundColor='#f5f5f5'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<div style=\\"color:#999;text-align:center;padding:2rem\\">Immagine non disponibile<br>${product.filename}</div>';" --!>
+
+                        <div class="product-info">
+                            <div class="product-name">${product.name}</div>
+                            <div class="product-description">${product.description}</div>
+                            <div class="product-price" style="margin-top: 0.8rem; font-size: 1.1rem; color: #d4af37; font-weight: bold;">
+                            €${product.price.toFixed(2)}
+                        </div>
+
+                            
+                            <!-- div class="product-id">ID: ${product.id}</div --!>
+
+                        </div>
+                    `;
+
+                    const img = productCard.querySelector('.product-image');
+                    img.addEventListener('click', () => {
+                        document.getElementById('modalImg').src = img.src;
+                        document.getElementById('imageModal').style.display = 'flex';
+                    });
+
+                        document.getElementById('imageModal').addEventListener('click', () => {
+                        document.getElementById('imageModal').style.display = 'none';
+                    });
+
+                    
+                    //productCard.addEventListener('click', () => {
+                    //    alert(`Prodotto: ${product.name}\n\nDescrizione: ${product.description}\n\nContattaci per prezzi e disponibilità.\n\nTelefono: +39 393 560 1991\nEmail: info@shanga.it\nFacebook: www.facebook.com/rwnkenya\nInstagram: rwnkenya`);
+                    //});
+                    
+                    productGrid.appendChild(productCard);
+                });
+                
+                loading.style.display = 'none';
+            }, 800);
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', function() {
+            // Load products
+            loadInventory();
+            
+            // Smooth scrolling for navigation
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const target = document.querySelector(this.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+        });
+    </script>
+
+
+    <div id="imageModal" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%;
+     background-color: rgba(0,0,0,0.8); justify-content:center; align-items:center; z-index:9999;">
+    <img id="modalImg" src="" style="max-width:90%; max-height:90%; box-shadow:0 0 30px #000;">
+    </div>
+
+
+
+</body>
+</html>
+
