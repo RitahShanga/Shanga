@@ -432,6 +432,13 @@
                 const response = await fetch('inventory_complete.json');
                 const data = await response.json();
                 allProducts = data.products;
+
+                // Mark Collana 93 as sold
+                allProducts.forEach(p => {
+                if (p.id === 'collana_093') {
+                p.sold = true;
+                }
+            });
                 
                 // Update product count
                 document.getElementById('productCount').textContent = `${allProducts.length} collane artigianali uniche`;
@@ -543,12 +550,7 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Load products
             loadInventory();
-                // Mark Collana 93 as sold
-                allProducts.forEach(p => {
-                if (p.id === 'collana_093') {
-                p.sold = true;
-                }
-            });
+                
 
 
             // Smooth scrolling for navigation
