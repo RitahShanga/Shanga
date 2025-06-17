@@ -1,0 +1,753 @@
+{
+  "products": [
+    {
+      "id": "collana_001",
+      "name": "Collana Artigianale 1",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 1.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_002",
+      "name": "Collana Artigianale 2",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 2.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_003",
+      "name": "Collana Artigianale 3",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 3.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_004",
+      "name": "Collana Artigianale 4",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 4.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_005",
+      "name": "Collana Artigianale 5",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 5.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_006",
+      "name": "Collana Artigianale 6",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 6.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_007",
+      "name": "Collana Artigianale 7",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 7.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_008",
+      "name": "Collana Artigianale 8",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 8.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_009",
+      "name": "Collana Artigianale 9",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 9.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_010",
+      "name": "Collana Artigianale 10",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 10.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_011",
+      "name": "Collana Artigianale 11",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 11.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_012",
+      "name": "Collana Artigianale 12",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 12.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_013",
+      "name": "Collana Artigianale 13",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 13.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_014",
+      "name": "Collana Artigianale 14",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 14.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_015",
+      "name": "Collana Artigianale 15",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 15.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_016",
+      "name": "Collana Artigianale 16",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 16.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_017",
+      "name": "Collana Artigianale 17",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 17.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_018",
+      "name": "Collana Artigianale 18",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 18.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_019",
+      "name": "Collana Artigianale 19",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 19.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_020",
+      "name": "Collana Artigianale 20",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 20.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_021",
+      "name": "Collana Artigianale 21",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 21.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_022",
+      "name": "Collana Artigianale 22",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 22.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_023",
+      "name": "Collana Artigianale 23",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 23.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_024",
+      "name": "Collana Artigianale 24",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 24.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_025",
+      "name": "Collana Artigianale 25",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 25.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_026",
+      "name": "Collana Artigianale 26",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 26.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_027",
+      "name": "Collana Artigianale 27",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 27.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_028",
+      "name": "Collana Artigianale 28",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 28.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_029",
+      "name": "Collana Artigianale 29",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 29.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_030",
+      "name": "Collana Artigianale 30",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 30.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_031",
+      "name": "Collana Artigianale 31",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 31.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_032",
+      "name": "Collana Artigianale 32",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 32.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_033",
+      "name": "Collana Artigianale 33",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 33.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_034",
+      "name": "Collana Artigianale 34",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 34.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_035",
+      "name": "Collana Artigianale 35",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 35.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_036",
+      "name": "Collana Artigianale 36",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 36.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_037",
+      "name": "Collana Artigianale 37",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 37.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_038",
+      "name": "Collana Artigianale 38",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 38.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_039",
+      "name": "Collana Artigianale 39",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 39.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_040",
+      "name": "Collana Artigianale 40",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 40.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_041",
+      "name": "Collana Artigianale 41",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 41.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_042",
+      "name": "Collana Artigianale 42",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 42.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_043",
+      "name": "Collana Artigianale 43",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 43.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_044",
+      "name": "Collana Artigianale 44",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 44.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_045",
+      "name": "Collana Artigianale 45",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 45.jpg",
+      "price": 13
+    },
+    {
+      "id": "collana_046",
+      "name": "Collana Artigianale 46",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 46.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_047",
+      "name": "Collana Artigianale 47",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 47.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_048",
+      "name": "Collana Artigianale 48",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 48.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_049",
+      "name": "Collana Artigianale 49",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 49.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_050",
+      "name": "Collana Artigianale 50",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 50.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_051",
+      "name": "Collana Artigianale 51",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 51.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_052",
+      "name": "Collana Artigianale 52",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 52.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_053",
+      "name": "Collana Artigianale 53",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 53.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_054",
+      "name": "Collana Artigianale 54",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 54.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_055",
+      "name": "Collana Artigianale 55",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 55.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_056",
+      "name": "Collana Artigianale 56",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 56.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_057",
+      "name": "Collana Artigianale 57",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 57.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_058",
+      "name": "Collana Artigianale 58",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 58.jpg",
+      "price": 25
+    },
+    {
+      "id": "collana_059",
+      "name": "Collana Artigianale 59",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 59.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_060",
+      "name": "Collana Artigianale 60",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 60.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_061",
+      "name": "Collana Artigianale 61",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 61.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_062",
+      "name": "Collana Artigianale 62",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 62.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_063",
+      "name": "Collana Artigianale 63",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 63.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_064",
+      "name": "Collana Artigianale 64",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 64.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_065",
+      "name": "Collana Artigianale 65",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 65.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_066",
+      "name": "Collana Artigianale 66",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 66.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_067",
+      "name": "Collana Artigianale 67",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 67.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_068",
+      "name": "Collana Artigianale 68",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 68.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_069",
+      "name": "Collana Artigianale 69",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 69.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_070",
+      "name": "Collana Artigianale 70",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 70.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_071",
+      "name": "Collana Artigianale 71",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 71.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_072",
+      "name": "Collana Artigianale 72",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 72.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_073",
+      "name": "Collana Artigianale 73",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 73.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_074",
+      "name": "Collana Artigianale 74",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 74.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_075",
+      "name": "Collana Artigianale 75",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 75.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_076",
+      "name": "Collana Artigianale 76",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 76.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_077",
+      "name": "Collana Artigianale 77",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 77.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_078",
+      "name": "Collana Artigianale 78",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 78.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_079",
+      "name": "Collana Artigianale 79",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 79.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_080",
+      "name": "Collana Artigianale 80",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 80.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_081",
+      "name": "Collana Artigianale 81",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 81.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_082",
+      "name": "Collana Artigianale 82",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 82.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_083",
+      "name": "Collana Artigianale 83",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 83.jpg",
+      "price": 18
+    },
+    {
+      "id": "collana_084",
+      "name": "Collana Artigianale 84",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 84.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_085",
+      "name": "Collana Artigianale 85",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 85.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_086",
+      "name": "Collana Artigianale 86",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 86.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_087",
+      "name": "Collana Artigianale 87",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 87.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_088",
+      "name": "Collana Artigianale 88",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 88.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_089",
+      "name": "Collana Artigianale 89",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 89.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_090",
+      "name": "Collana Artigianale 90",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 90.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_091",
+      "name": "Collana Artigianale 91",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 91.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_092",
+      "name": "Collana Artigianale 92",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 92.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_093",
+      "name": "Collana Artigianale 93",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 93.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_094",
+      "name": "Collana Artigianale 94",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 94.jpg",
+      "price": 40
+    },
+    {
+      "id": "collana_095",
+      "name": "Collana Artigianale 95",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 95.jpg",
+      "price": 40
+    },
+    {
+      "id": "collana_096",
+      "name": "Collana Artigianale 96",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 96.jpg",
+      "price": 40
+    },
+    {
+      "id": "collana_097",
+      "name": "Collana Artigianale 97",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 97.jpg",
+      "price": 40
+    },
+    {
+      "id": "collana_098",
+      "name": "Collana Artigianale 98",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 98.jpg",
+      "price": 40
+    },
+    {
+      "id": "collana_099",
+      "name": "Collana Artigianale 99",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 99.jpg",
+      "price": 40
+    },
+    {
+      "id": "collana_100",
+      "name": "Collana Artigianale 100",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 100.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_101",
+      "name": "Collana Artigianale 101",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 101.jpg",
+      "price": 15
+    },
+    {
+      "id": "collana_102",
+      "name": "Collana Artigianale 102",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 102.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_103",
+      "name": "Collana Artigianale 103",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 103.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_104",
+      "name": "Collana Artigianale 104",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 104.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_105",
+      "name": "Collana Artigianale 105",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 105.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_106",
+      "name": "Collana Artigianale 106",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 106.jpg",
+      "price": 20
+    },
+    {
+      "id": "collana_107",
+      "name": "Collana Artigianale 107",
+      "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
+      "filename": "PNG image 107.jpg",
+      "price": 20
+    }
+  ]
+}
