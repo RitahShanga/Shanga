@@ -331,6 +331,27 @@
             color: #666;
             font-size: 1.1rem;
         }
+
+        .sold-badge {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: red;
+            color: white;
+            font-size: 0.8rem;
+            font-weight: bold;
+            padding: 6px 10px;
+            border-radius: 4px;
+            z-index: 10;
+            pointer-events: none;
+        }
+.product-card {
+  position: relative;
+}
+
+
+
+
     </style>
 </head>
 <body>
@@ -479,7 +500,7 @@
                     productCard.className = 'product-card';
                     productCard.innerHTML = `
                         <img loading="lazy" src="ShangaImages/${product.filename}" alt="${product.name}" class="product-image">
-
+                        <div class="sold-badge" style="${product.sold ? 'display:block;' : 'display:none;'}">VENDUTA</div>
                         
                              <!-- onerror="this.style.backgroundColor='#f5f5f5'; this.style.display='flex'; this.style.alignItems='center'; this.style.justifyContent='center'; this.innerHTML='<div style=\\"color:#999;text-align:center;padding:2rem\\">Immagine non disponibile<br>${product.filename}</div>';" --!>
 
@@ -522,7 +543,14 @@
         document.addEventListener('DOMContentLoaded', function() {
             // Load products
             loadInventory();
-            
+                // Mark Collana 93 as sold
+                allProducts.forEach(p => {
+                if (p.id === 'collana_093') {
+                p.sold = true;
+                }
+            });
+
+
             // Smooth scrolling for navigation
             document.querySelectorAll('a[href^="#"]').forEach(anchor => {
                 anchor.addEventListener('click', function (e) {
