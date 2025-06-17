@@ -649,7 +649,8 @@
       "name": "Collana Artigianale 93",
       "description": "Bellissima collana artigianale realizzata con tecniche tradizionali e materiali di alta qualità. Ogni pezzo è unico e racconta una storia di patrimonio culturale.",
       "filename": "PNG image 93.jpg",
-      "price": 15
+      "price": 15,
+      "sold": true
     },
     {
       "id": "collana_094",
