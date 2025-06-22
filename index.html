@@ -433,9 +433,19 @@
                 const data = await response.json();
                 allProducts = data.products;
 
-                // Mark Collana 93 as sold
+                // Marked sold necklaces
                 allProducts.forEach(p => {
-                if (p.id === 'collana_093') {
+                if (
+                    p.id === 'collana_017',
+                    p.id === 'collana_022',
+                    p.id === 'collana_061',
+                    p.id === 'collana_069',
+                    p.id === 'collana_080',
+                    p.id === 'collana_081',
+                    p.id === 'collana_082',
+                    p.id === 'collana_092',
+                    p.id === 'collana_093'
+                ) {
                 p.sold = true;
                 }
             });
