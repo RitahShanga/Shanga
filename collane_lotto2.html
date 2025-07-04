@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>Collane – Lotto 2 | Shanga</title>
+
+<!-- ====== STILE “MYTHERESA‑INSPIRED” ====== -->
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:"Helvetica Neue",Arial,sans-serif;color:#222;background:#fafafa;line-height:1.6}
+a{color:inherit;text-decoration:none}
+
+header{background:#fff;box-shadow:0 2px 8px rgba(0,0,0,.05);position:sticky;top:0;z-index:100}
+.container{max-width:1200px;margin:0 auto;padding:0 20px}
+.header-content{display:flex;justify-content:space-between;align-items:center;height:64px}
+.logo{font-family:Georgia,serif;font-size:1.8rem;font-weight:400;letter-spacing:4px}
+
+nav ul{display:flex;gap:24px;list-style:none}
+nav a{font-size:.95rem;position:relative;padding:8px 0}
+nav a::after{content:"";position:absolute;bottom:0;left:0;width:0;height:2px;background:#d4af37;transition:width .3s}
+nav a:hover{color:#d4af37}nav a:hover::after{width:100%}
+
+/* HERO */
+.hero{text-align:center;padding:80px 20px 40px}
+.hero h1{font-family:Georgia,serif;font-size:2.4rem;font-weight:300;margin-bottom:8px}
+.hero p{color:#555;max-width:600px;margin:0 auto 40px}
+
+/* PRODOTTI */
+.products{padding:0 0 80px}
+.product-count{text-align:center;color:#666;margin-bottom:24px}
+.product-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(300px,1fr));gap:24px}
+.product-card{background:#fff;border:1px solid #eee;border-radius:8px;overflow:hidden;
+              box-shadow:0 8px 20px rgba(0,0,0,.05);position:relative;transition:.3s}
+.product-card:hover{transform:translateY(-4px);box-shadow:0 16px 32px rgba(0,0,0,.07)}
+.product-image{width:100%;height:260px;object-fit:cover}
+.product-info{padding:20px}
+.product-name{font-family:Georgia,serif;font-size:1.1rem;margin-bottom:6px;font-weight:500}
+.product-price{color:#d4af37;font-weight:600;font-size:1rem;margin-top:4px}
+
+#pager{text-align:center;margin-top:40px}
+.page-btn{display:inline-block;margin:0 6px;padding:8px 14px;border:1px solid #ddd;border-radius:4px;
+          font-size:.9rem;cursor:pointer;background:#fff}
+.page-btn.active{background:#d4af37;color:#fff;border-color:#d4af37}
+.page-btn:hover{box-shadow:0 2px 6px rgba(0,0,0,.08)}
+
+/* MODAL */
+#imageModal{display:none;position:fixed;top:0;left:0;width:100%;height:100%;
+            background:rgba(0,0,0,.8);justify-content:center;align-items:center;z-index:999}
+#modalImg{max-width:90%;max-height:90%;box-shadow:0 0 30px #000}
+
+footer{background:#222;color:#aaa;padding:40px 20px;text-align:center;font-size:.9rem}
+footer a{color:#d4af37}
+</style>
+</head>
+<body>
+
+<!-- ====== HEADER ====== -->
+<header>
+  <div class="container header-content">
+    <div class="logo"><a href="index.html">SHANGA</a></div>
+    <nav><ul><li><a href="index.html#cataloghi">Cataloghi</a></li></ul></nav>
+  </div>
+</header>
+
+<!-- ====== HERO ====== -->
+<section class="hero">
+  <div class="container">
+    <h1>Collane – Lotto 2</h1>
+    <p>Un nuovo assortimento di collane artigianali pregiate.</p>
+  </div>
+</section>
+
+<!-- ====== AREA PRODOTTI ====== -->
+<section class="products">
+  <div class="container">
+    <div class="product-count" id="productCount"></div>
+    <div class="product-grid" id="productGrid"></div>
+    <div id="pager"></div>
+  </div>
+</section>
+
+<footer>
+  <p>Per ordini: <a href="mailto:info@shanga.it">info@shanga.it</a></p>
+</footer>
+
+<!-- ====== MODAL IMMAGINE ====== -->
+<div id="imageModal"><img id="modalImg" src="" alt="Zoom immagine"></div>
+
+<!-- ====== SCRIPT ====== -->
+<script>
+const PAGE_SIZE = 50;            // 50 prodotti per pagina
+let allProducts = [];
+let page = 1;
+
+/* ------------------ helper di paginazione ------------------ */
+function paginate(items){
+  const start = (page - 1) * PAGE_SIZE;
+  return items.slice(start, start + PAGE_SIZE);
+}
+
+/* ------------------ render paginatore ---------------------- */
+function renderPager(total){
+  const pages = Math.ceil(total / PAGE_SIZE);
+  const pager = document.getElementById('pager');
+  pager.innerHTML = '';
+  for (let i = 1; i <= pages; i++){
+    const btn = document.createElement('span');
+    btn.textContent = i;
+    btn.className = 'page-btn' + (i === page ? ' active' : '');
+    btn.onclick = () => { page = i; displayProducts(); };
+    pager.appendChild(btn);
+  }
+}
+
+/* ------------------ carica inventario ---------------------- */
+async function loadInventory(){
+  try{
+    const res = await fetch('inventory_complete2.json');
+    const data = await res.json();
+    // nasconde quelli marcati sold === true
+    allProducts = data.products.filter(p => !p.sold);
+    document.getElementById('productCount').textContent =
+      `${allProducts.length} collane disponibili`;
+    renderPager(allProducts.length);
+    displayProducts();
+  }catch(err){
+    console.error('Errore caricamento inventario:', err);
+  }
+}
+
+/* ------------------ mostra prodotti ------------------------ */
+function displayProducts(){
+  const grid = document.getElementById('productGrid');
+  grid.innerHTML = '';
+
+  paginate(allProducts).forEach(p => {
+    const card = document.createElement('div');
+    card.className = 'product-card';
+    card.innerHTML = `
+      <img loading="lazy" src="ShangaImages2/${p.filename}" alt="${p.name}" class="product-image">
+      <div class="product-info">
+        <div class="product-name">${p.name}</div>
+        <div class="product-price">€${p.price.toFixed(2)}</div>
+      </div>
+    `;
+
+    card.querySelector('.product-image').onclick = e => {
+      document.getElementById('modalImg').src = e.target.src;
+      document.getElementById('imageModal').style.display = 'flex';
+    };
+
+    grid.appendChild(card);
+  });
+}
+
+/* ------------------ evento chiusura modal ------------------ */
+document.getElementById('imageModal').onclick = () => {
+  document.getElementById('imageModal').style.display = 'none';
+};
+
+/* ------------------ avvio ------------------ */
+document.addEventListener('DOMContentLoaded', loadInventory);
+</script>
+</body>
+</html>
