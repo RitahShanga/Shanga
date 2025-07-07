@@ -1,424 +1,93 @@
 {
   "products": [
-    {
-      "id": "collana2_001",
-      "name": "Collana Artigianale Lotto 2 – 1",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 1.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_002",
-      "name": "Collana Artigianale Lotto 2 – 2",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 2.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_003",
-      "name": "Collana Artigianale Lotto 2 – 3",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 3.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_004",
-      "name": "Collana Artigianale Lotto 2 – 4",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 4.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_005",
-      "name": "Collana Artigianale Lotto 2 – 5",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 5.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_006",
-      "name": "Collana Artigianale Lotto 2 – 6",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 6.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_007",
-      "name": "Collana Artigianale Lotto 2 – 7",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 7.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_008",
-      "name": "Collana Artigianale Lotto 2 – 8",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 8.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_009",
-      "name": "Collana Artigianale Lotto 2 – 9",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 9.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_010",
-      "name": "Collana Artigianale Lotto 2 – 10",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 10.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_011",
-      "name": "Collana Artigianale Lotto 2 – 11",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 11.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_012",
-      "name": "Collana Artigianale Lotto 2 – 12",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 12.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_013",
-      "name": "Collana Artigianale Lotto 2 – 13",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 13.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_014",
-      "name": "Collana Artigianale Lotto 2 – 14",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 14.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_015",
-      "name": "Collana Artigianale Lotto 2 – 15",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 15.jpg",
-      "price": 20
-    },
-    {
-      "id": "collana2_016",
-      "name": "Collana Artigianale Lotto 2 – 16",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 16.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_017",
-      "name": "Collana Artigianale Lotto 2 – 17",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 17.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_018",
-      "name": "Collana Artigianale Lotto 2 – 18",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 18.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_019",
-      "name": "Collana Artigianale Lotto 2 – 19",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 19.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_020",
-      "name": "Collana Artigianale Lotto 2 – 20",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 20.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_021",
-      "name": "Collana Artigianale Lotto 2 – 21",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 21.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_022",
-      "name": "Collana Artigianale Lotto 2 – 22",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 22.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_023",
-      "name": "Collana Artigianale Lotto 2 – 23",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 23.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_024",
-      "name": "Collana Artigianale Lotto 2 – 24",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 24.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_025",
-      "name": "Collana Artigianale Lotto 2 – 25",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 25.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_026",
-      "name": "Collana Artigianale Lotto 2 – 26",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 26.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_027",
-      "name": "Collana Artigianale Lotto 2 – 27",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 27.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_028",
-      "name": "Collana Artigianale Lotto 2 – 28",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 28.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_029",
-      "name": "Collana Artigianale Lotto 2 – 29",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 29.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_030",
-      "name": "Collana Artigianale Lotto 2 – 30",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 30.jpg",
-      "price": 25
-    },
-    {
-      "id": "collana2_031",
-      "name": "Collana Artigianale Lotto 2 – 31",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 31.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_032",
-      "name": "Collana Artigianale Lotto 2 – 32",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 32.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_033",
-      "name": "Collana Artigianale Lotto 2 – 33",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 33.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_034",
-      "name": "Collana Artigianale Lotto 2 – 34",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 34.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_035",
-      "name": "Collana Artigianale Lotto 2 – 35",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 35.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_036",
-      "name": "Collana Artigianale Lotto 2 – 36",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 36.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_037",
-      "name": "Collana Artigianale Lotto 2 – 37",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 37.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_038",
-      "name": "Collana Artigianale Lotto 2 – 38",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 38.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_039",
-      "name": "Collana Artigianale Lotto 2 – 39",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 39.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_040",
-      "name": "Collana Artigianale Lotto 2 – 40",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 40.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_041",
-      "name": "Collana Artigianale Lotto 2 – 41",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 41.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_042",
-      "name": "Collana Artigianale Lotto 2 – 42",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 42.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_043",
-      "name": "Collana Artigianale Lotto 2 – 43",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 43.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_044",
-      "name": "Collana Artigianale Lotto 2 – 44",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 44.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_045",
-      "name": "Collana Artigianale Lotto 2 – 45",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 45.jpg",
-      "price": 15
-    },
-    {
-      "id": "collana2_046",
-      "name": "Collana Artigianale Lotto 2 – 46",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 46.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_047",
-      "name": "Collana Artigianale Lotto 2 – 47",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 47.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_048",
-      "name": "Collana Artigianale Lotto 2 – 48",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 48.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_049",
-      "name": "Collana Artigianale Lotto 2 – 49",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 49.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_050",
-      "name": "Collana Artigianale Lotto 2 – 50",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 50.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_051",
-      "name": "Collana Artigianale Lotto 2 – 51",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 51.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_052",
-      "name": "Collana Artigianale Lotto 2 – 52",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 52.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_053",
-      "name": "Collana Artigianale Lotto 2 – 53",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 53.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_054",
-      "name": "Collana Artigianale Lotto 2 – 54",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 54.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_055",
-      "name": "Collana Artigianale Lotto 2 – 55",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 55.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_056",
-      "name": "Collana Artigianale Lotto 2 – 56",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 56.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_057",
-      "name": "Collana Artigianale Lotto 2 – 57",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 57.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_058",
-      "name": "Collana Artigianale Lotto 2 – 58",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 58.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_059",
-      "name": "Collana Artigianale Lotto 2 – 59",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 59.jpg",
-      "price": 18
-    },
-    {
-      "id": "collana2_060",
-      "name": "Collana Artigianale Lotto 2 – 60",
-      "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.",
-      "filename": "PNG image 60.jpg",
-      "price": 18
-    }
+    { "id": "collana2_001", "name": "Collana Artigianale Krobo – 1",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 1.jpg"  },
+    { "id": "collana2_002", "name": "Collana Artigianale Krobo – 2",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 2.jpg"  },
+    { "id": "collana2_003", "name": "Collana Artigianale Krobo – 3",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 3.jpg"  },
+    { "id": "collana2_004", "name": "Collana Artigianale Krobo – 4",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 4.jpg"  },
+    { "id": "collana2_005", "name": "Collana Artigianale Krobo – 5",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 5.jpg"  },
+    { "id": "collana2_006", "name": "Collana Artigianale Krobo – 6",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 6.jpg"  },
+    { "id": "collana2_007", "name": "Collana Artigianale Krobo – 7",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 7.jpg"  },
+    { "id": "collana2_008", "name": "Collana Artigianale Krobo – 8",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 8.jpg"  },
+    { "id": "collana2_009", "name": "Collana Artigianale Krobo – 9",  "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 9.jpg"  },
+    { "id": "collana2_010", "name": "Collana Artigianale Krobo – 10", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 10.jpg" },
+    { "id": "collana2_011", "name": "Collana Artigianale Krobo – 11", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 11.jpg" },
+    { "id": "collana2_012", "name": "Collana Artigianale Krobo – 12", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 12.jpg" },
+    { "id": "collana2_013", "name": "Collana Artigianale Krobo – 13", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 13.jpg" },
+    { "id": "collana2_014", "name": "Collana Artigianale Krobo – 14", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 14.jpg" },
+    { "id": "collana2_015", "name": "Collana Artigianale Krobo – 15", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 15.jpg" },
+    { "id": "collana2_016", "name": "Collana Artigianale Krobo – 16", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 16.jpg" },
+    { "id": "collana2_017", "name": "Collana Artigianale Krobo – 17", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 17.jpg" },
+    { "id": "collana2_018", "name": "Collana Artigianale Krobo – 18", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 18.jpg" },
+    { "id": "collana2_019", "name": "Collana Artigianale Krobo – 19", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 19.jpg" },
+    { "id": "collana2_020", "name": "Collana Artigianale Krobo – 20", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 20.jpg" },
+    { "id": "collana2_021", "name": "Collana Artigianale Krobo – 21", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 21.jpg" },
+    { "id": "collana2_022", "name": "Collana Artigianale Krobo – 22", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 22.jpg" },
+    { "id": "collana2_023", "name": "Collana Artigianale Krobo – 23", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 23.jpg" },
+    { "id": "collana2_024", "name": "Collana Artigianale Krobo – 24", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 24.jpg" },
+    { "id": "collana2_025", "name": "Collana Artigianale Krobo – 25", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 25.jpg" },
+    { "id": "collana2_026", "name": "Collana Artigianale Krobo – 26", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 26.jpg" },
+    { "id": "collana2_027", "name": "Collana Artigianale Krobo – 27", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 27.jpg" },
+    { "id": "collana2_028", "name": "Collana Artigianale Krobo – 28", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 28.jpg" },
+    { "id": "collana2_029", "name": "Collana Artigianale Krobo – 29", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 29.jpg" },
+    { "id": "collana2_030", "name": "Collana Artigianale Krobo – 30", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 30.jpg" },
+    { "id": "collana2_031", "name": "Collana Artigianale Krobo – 31", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 31.jpg" },
+    { "id": "collana2_032", "name": "Collana Artigianale Krobo – 32", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 32.jpg" },
+    { "id": "collana2_033", "name": "Collana Artigianale Krobo – 33", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 33.jpg" },
+    { "id": "collana2_034", "name": "Collana Artigianale Krobo – 34", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 34.jpg" },
+    { "id": "collana2_035", "name": "Collana Artigianale Krobo – 35", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 35.jpg" },
+    { "id": "collana2_036", "name": "Collana Artigianale Krobo – 36", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 36.jpg" },
+    { "id": "collana2_037", "name": "Collana Artigianale Krobo – 37", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 37.jpg" },
+    { "id": "collana2_038", "name": "Collana Artigianale Krobo – 38", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 38.jpg" },
+    { "id": "collana2_039", "name": "Collana Artigianale Krobo – 39", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 39.jpg" },
+    { "id": "collana2_040", "name": "Collana Artigianale Krobo – 40", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 40.jpg" },
+    { "id": "collana2_041", "name": "Collana Artigianale Krobo – 41", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 41.jpg" },
+    { "id": "collana2_042", "name": "Collana Artigianale Krobo – 42", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 42.jpg" },
+    { "id": "collana2_043", "name": "Collana Artigianale Krobo – 43", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 43.jpg" },
+    { "id": "collana2_044", "name": "Collana Artigianale Krobo – 44", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 44.jpg" },
+    { "id": "collana2_045", "name": "Collana Artigianale Krobo – 45", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 45.jpg" },
+    { "id": "collana2_046", "name": "Collana Artigianale Krobo – 46", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 46.jpg" },
+    { "id": "collana2_047", "name": "Collana Artigianale Krobo – 47", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 47.jpg" },
+    { "id": "collana2_048", "name": "Collana Artigianale Krobo – 48", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 48.jpg" },
+    { "id": "collana2_049", "name": "Collana Artigianale Krobo – 49", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 49.jpg" },
+    { "id": "collana2_050", "name": "Collana Artigianale Krobo – 50", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 50.jpg" },
+    { "id": "collana2_051", "name": "Collana Artigianale Krobo – 51", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 51.jpg" },
+    { "id": "collana2_052", "name": "Collana Artigianale Krobo – 52", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 52.jpg" },
+    { "id": "collana2_053", "name": "Collana Artigianale Krobo – 53", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 53.jpg" },
+    { "id": "collana2_054", "name": "Collana Artigianale Krobo – 54", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 54.jpg" },
+    { "id": "collana2_055", "name": "Collana Artigianale Krobo – 55", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 55.jpg" },
+    { "id": "collana2_056", "name": "Collana Artigianale Krobo – 56", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 56.jpg" },
+    { "id": "collana2_057", "name": "Collana Artigianale Krobo – 57", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 57.jpg" },
+    { "id": "collana2_058", "name": "Collana Artigianale Krobo – 58", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 58.jpg" },
+    { "id": "collana2_059", "name": "Collana Artigianale Krobo – 59", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 59.jpg" },
+    { "id": "collana2_060", "name": "Collana Artigianale Krobo – 60", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 60.jpg" },
+    { "id": "collana2_061", "name": "Collana Artigianale Krobo – 61", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 61.jpg" },
+    { "id": "collana2_062", "name": "Collana Artigianale Krobo – 62", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 62.jpg" },
+    { "id": "collana2_063", "name": "Collana Artigianale Krobo – 63", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 63.jpg" },
+    { "id": "collana2_064", "name": "Collana Artigianale Krobo – 64", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 64.jpg" },
+    { "id": "collana2_065", "name": "Collana Artigianale Krobo – 65", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 65.jpg" },
+    { "id": "collana2_066", "name": "Collana Artigianale Krobo – 66", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 66.jpg" },
+    { "id": "collana2_067", "name": "Collana Artigianale Krobo – 67", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 67.jpg" },
+    { "id": "collana2_068", "name": "Collana Artigianale Krobo – 68", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 68.jpg" },
+    { "id": "collana2_069", "name": "Collana Artigianale Krobo – 69", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 69.jpg" },
+    { "id": "collana2_070", "name": "Collana Artigianale Krobo – 70", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 70.jpg" },
+    { "id": "collana2_071", "name": "Collana Artigianale Krobo – 71", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 71.jpg" },
+    { "id": "collana2_072", "name": "Collana Artigianale Krobo – 72", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 72.jpg" },
+    { "id": "collana2_073", "name": "Collana Artigianale Krobo – 73", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 73.jpg" },
+    { "id": "collana2_074", "name": "Collana Artigianale Krobo – 74", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 74.jpg" },
+    { "id": "collana2_075", "name": "Collana Artigianale Krobo – 75", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 75.jpg" },
+    { "id": "collana2_076", "name": "Collana Artigianale Krobo – 76", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 76.jpg" },
+    { "id": "collana2_077", "name": "Collana Artigianale Krobo – 77", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 77.jpg" },
+    { "id": "collana2_078", "name": "Collana Artigianale Krobo – 78", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 78.jpg" },
+    { "id": "collana2_079", "name": "Collana Artigianale Krobo – 79", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 79.jpg" },
+    { "id": "collana2_080", "name": "Collana Artigianale Krobo – 80", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 80.jpg" },
+    { "id": "collana2_081", "name": "Collana Artigianale Krobo – 81", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 81.jpg" },
+    { "id": "collana2_082", "name": "Collana Artigianale Krobo – 82", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 82.jpg" },
+    { "id": "collana2_083", "name": "Collana Artigianale Krobo – 83", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 83.jpg" },
+    { "id": "collana2_084", "name": "Collana Artigianale Krobo – 84", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 84.jpg" },
+    { "id": "collana2_085", "name": "Collana Artigianale Krobo – 85", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 85.jpg" },
+    { "id": "collana2_086", "name": "Collana Artigianale Krobo – 86", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 86.jpg" },
+    { "id": "collana2_087", "name": "Collana Artigianale Krobo – 87", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 87.jpg" },
+    { "id": "collana2_088", "name": "Collana Artigianale Krobo – 88", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 88.jpg" },
+    { "id": "collana2_089", "name": "Collana Artigianale Krobo – 89", "description": "Bellissima collana artigianale della seconda collezione, realizzata con materiali di alta qualità e design unico.", "filename": "PNG image 89.jpg" }
   ]
 }
