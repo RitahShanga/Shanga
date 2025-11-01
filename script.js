@@ -142,7 +142,7 @@ const priceConfig = {
     }
 
     // Catalog page functionality
-    if (window.location.pathname.includes('shanga.html')) {
+    if (window.location.pathname.includes('shanga')) {
         initCatalogPage();
     }
 
