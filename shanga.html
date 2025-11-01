@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/img/favicon.png" type="image/png">
+    <title>Shanga - Catalogo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./lightbox.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1 class="logo"><a href="index.html">Shanga</a></h1>
+            <nav class="breadcrumb">
+                <a href="index.html">Home</a> > <span id="category-name">Catalogo</span>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="catalog-header">
+                <h2 id="catalog-title">Catalogo</h2>
+                <div class="catalog-controls">
+                    <div class="category-selector">
+                        <label for="category-select">Categoria:</label>
+                        <select id="category-select">
+                            <option value="collane">Collane</option>
+                            <option value="bracciali">Bracciali</option>
+                            <option value="orecchini">Orecchini</option>
+                            <option value="decorazione">Decorazione Casa</option>
+                            <option value="sandali">Sandali</option>
+                        </select>
+                    </div>
+                    <div class="loading-indicator" id="loading">
+                        <span>Caricamento...</span>
+                    </div>
+                </div>
+            </section>
+
+            <section class="product-grid" id="product-grid">
+                <!-- Products will be loaded dynamically -->
+            </section>
+
+            <div class="load-more-container">
+                <button id="load-more" class="load-more-btn" style="display: none;">Carica Altri Prodotti</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="contact-info">
+                    <h4>Contatti</h4>
+                    <p>Email: <a href="mailto:rwnkenya@gmail.com">rwnkenya@gmail.com</a></p>
+                </div>
+                <div class="copyright">
+                    <p>&copy; <span id="current-year"></span> Shanga. Tutti i diritti riservati.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <div class="lightbox-content">
+            <span class="lightbox-close">&times;</span>
+            <img id="lightbox-image" src="" alt="">
+            <div class="lightbox-caption">
+                <span id="lightbox-title"></span>
+                <div class="lightbox-price" id="lightbox-price"></div>
+                <div class="lightbox-nav">
+                    <button id="lightbox-prev">&larr; Precedente</button>
+                    <button id="lightbox-next">Successivo &rarr;</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="./script.js"></script>
+    <script src="./lightbox.js"></script>
+</body>
+</html>
