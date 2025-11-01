@@ -173,16 +173,26 @@ const priceConfig = {
         const subcategoryParam = urlParams.get('subcategory');
         
         if (categoryParam && categoryConfig[categoryParam]) {
-            currentCategory = categoryParam;
-            currentSubcategory = subcategoryParam || '';
-            document.getElementById('category-select').value = currentCategory;
+    currentCategory = categoryParam;
+    currentSubcategory = subcategoryParam || '';
+    document.getElementById('category-select').value = currentCategory;
         } else {
-            currentCategory = 'collane'; // Default category
+    // Default to collane if no category provided
+    currentCategory = 'collane';
+    currentSubcategory = 'krobo'; // Automatically show Krobo necklaces
         }
 
         updateCatalogTitle();
         setupSubcategorySelector();
-        loadProducts();
+
+    // Ensure collane shows something on load
+        if (currentCategory === 'collane' && !currentSubcategory) {
+            currentSubcategory = 'krobo';
+        }
+
+clearProductGrid();
+loadProducts();
+
 
         // Category selector change event
         document.getElementById('category-select').addEventListener('change', function() {
