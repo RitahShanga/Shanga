@@ -167,64 +167,66 @@ const priceConfig = {
     }
 
     function initCatalogPage() {
-        // Get category from URL parameters
-        const urlParams = new URLSearchParams(window.location.search);
-        const categoryParam = urlParams.get('category');
-        const subcategoryParam = urlParams.get('subcategory');
-        
-        if (categoryParam && categoryConfig[categoryParam]) {
-    currentCategory = categoryParam;
-    currentSubcategory = subcategoryParam || '';
-    document.getElementById('category-select').value = currentCategory;
-        } else {
-    // Default to collane if no category provided
-    currentCategory = 'collane';
-    currentSubcategory = 'krobo'; // Automatically show Krobo necklaces
-        }
+    // Get category from URL parameters
+    const urlParams = new URLSearchParams(window.location.search);
+    const categoryParam = urlParams.get('category');
+    const subcategoryParam = urlParams.get('subcategory');
 
+    if (categoryParam && categoryConfig[categoryParam]) {
+        currentCategory = categoryParam;
+        currentSubcategory = subcategoryParam || '';
+        document.getElementById('category-select').value = currentCategory;
+    } else {
+        // Default to collane
+        currentCategory = 'collane';
+        currentSubcategory = 'krobo'; // load Krobo by default
+    }
+
+    // ✅ Wait until DOM is fully painted before running setup
+    window.requestAnimationFrame(() => {
         updateCatalogTitle();
         setupSubcategorySelector();
 
-    // Ensure collane shows something on load
+        // Default load for collane if none chosen
         if (currentCategory === 'collane' && !currentSubcategory) {
             currentSubcategory = 'krobo';
         }
 
-clearProductGrid();
-loadProducts();
+        clearProductGrid();
+        loadProducts();
+    });
 
+    // Category selector change event
+    document.getElementById('category-select').addEventListener('change', function() {
+        currentCategory = this.value;
+        currentSubcategory = '';
+        currentPage = 0;
+        loadedImages = [];
+        updateCatalogTitle();
+        setupSubcategorySelector();
+        clearProductGrid();
+        loadProducts();
 
-        // Category selector change event
-        document.getElementById('category-select').addEventListener('change', function() {
-            currentCategory = this.value;
-            currentSubcategory = '';
-            currentPage = 0;
-            loadedImages = [];
-            updateCatalogTitle();
-            setupSubcategorySelector();
-            clearProductGrid();
-            loadProducts();
-            
-            // Update URL
-            const newUrl = `${window.location.pathname}?category=${currentCategory}`;
-            window.history.pushState({category: currentCategory}, '', newUrl);
-        });
+        const newUrl = `${window.location.pathname}?category=${currentCategory}`;
+        window.history.pushState({ category: currentCategory }, '', newUrl);
+    });
 
-        // Load more button
-        const loadMoreBtn = document.getElementById('load-more');
-        if (loadMoreBtn) {
-            loadMoreBtn.addEventListener('click', loadMoreProducts);
-        }
-
-        // Infinite scroll (optional)
-        window.addEventListener('scroll', function() {
-            if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 1000) {
-                if (!isLoading && hasMoreProducts()) {
-                    loadMoreProducts();
-                }
-            }
-        });
+    // Load more button
+    const loadMoreBtn = document.getElementById('load-more');
+    if (loadMoreBtn) {
+        loadMoreBtn.addEventListener('click', loadMoreProducts);
     }
+
+    // Infinite scroll
+    window.addEventListener('scroll', function() {
+        if ((window.innerHeight + window.scrollY) >= document.body.offsetHeight - 1000) {
+            if (!isLoading && hasMoreProducts()) {
+                loadMoreProducts();
+            }
+        }
+    });
+}
+
 
    function setupSubcategorySelector() {
     const catalogControls = document.querySelector('.catalog-controls');
