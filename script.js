@@ -376,12 +376,13 @@ function setupSubcategorySelector() {
     }
 
     function getProductPrice(category, number, subcategory = '') {
-    if (subcategory && category === 'collane') {
-        return priceConfig[category]?.[subcategory]?.[number] || null;
-    } else {
+        if (subcategory && priceConfig[category]?.[subcategory]) {
+            return priceConfig[category][subcategory][number] || null;
+        }
         return priceConfig[category]?.[number] || null;
     }
-    }
+
+
 
 
     function loadMoreProducts() {
