@@ -8,21 +8,41 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 
     // Category configuration with necklace subcategories and pricing system
-    const categoryConfig = {
-        collane: { 
-            max: 350, 
-            name: 'Collane',
-            subcategories: {
-                ottone: { max: 120, name: 'Ottone' },
-                krobo: { max: 115, name: 'Krobo' },
-                perline: { max: 115, name: 'Perline' }
-            }
-        },
-        bracciali: { max: 50, name: 'Bracciali' },
-        orecchini: { max: 100, name: 'Orecchini' },
-        decorazione: { max: 100, name: 'Decorazione Casa' },
-        sandali: { max: 200, name: 'Sandali' }
-    };
+const categoryConfig = {
+    collane: { 
+        max: 350, 
+        name: 'Collane',
+        subcategories: {
+            ottone: { max: 120, name: 'Ottone' },
+            krobo: { max: 115, name: 'Krobo' },
+            perline: { max: 115, name: 'Perline' }
+        }
+    },
+
+    bracciali: { max: 50, name: 'Bracciali' },
+
+    orecchini: { 
+        name: 'Orecchini',
+        subcategories: {
+            ottone: { max: 100, name: 'Ottone' },
+            perline: { max: 100, name: 'Perline' }
+        }
+    },
+
+    decorazione: { 
+        name: 'Decorazione Casa',
+        subcategories: {
+            portacandele: { max: 100, name: 'Portacandele' },
+            centrotavole: { max: 100, name: 'Centrotavole' },
+            cestini: { max: 100, name: 'Cestini' }
+        }
+    },
+
+    sandali: { max: 200, name: 'Sandali' },
+
+    cinture: { max: 100, name: 'Cinture' } // NEW CATEGORY
+};
+
 
 // Price configuration - Add prices for each product here
 const priceConfig = {
@@ -82,19 +102,20 @@ const priceConfig = {
             76: "€30.00", 77: "€30.00", 78: "€30.00", 79: "€30.00"
         }
          },
-        bracciali: {
+    bracciali: {
             1: "€25.00",
             2: "€32.00",
             3: "€28.00",
             // Add more prices as needed
         },
-        orecchini: {
+    orecchini: {
             1: "€18.00",
             2: "€22.00",
             3: "€15.00",
             // Add more prices as needed
         },
-        decorazione: {
+    decorazione: {
+        portacandele: {
             1: "€55.00",
             2: "€55.00",
             3: "€55.00",
@@ -121,7 +142,14 @@ const priceConfig = {
             24: "€25.00",
             25: "€25.00",
         },
-        sandali: {
+        centrotavole: {
+
+        },
+        cestini: {
+
+        } 
+         },
+    sandali: {
             1: "€55.00",
             2: "€55.00",
             3: "€55.00",
@@ -228,51 +256,51 @@ const priceConfig = {
 }
 
 
-   function setupSubcategorySelector() {
+function setupSubcategorySelector() {
     const catalogControls = document.querySelector('.catalog-controls');
 
-    // Remove existing subcategory selector
-    const existingSubcategorySelector = document.querySelector('.subcategory-selector');
-    if (existingSubcategorySelector) existingSubcategorySelector.remove();
+    // Remove old subcategory section
+    const existing = document.querySelector('.subcategory-selector');
+    if (existing) existing.remove();
 
-    if (currentCategory === 'collane') {
-        const subcategoryDiv = document.createElement('div');
-        subcategoryDiv.className = 'subcategory-selector';
-        subcategoryDiv.innerHTML = `
-            <label>Sottocategorie:</label>
-            <div class="subcategory-boxes">
-                <div class="subcategory-box" data-subcategory="ottone">Ottone</div>
-                <div class="subcategory-box" data-subcategory="krobo">Krobo</div>
-                <div class="subcategory-box" data-subcategory="perline">Perline</div>
-            </div>
-        `;
+    const config = categoryConfig[currentCategory];
+    if (!config.subcategories) return; // No subcategories → exit
 
-        catalogControls.insertBefore(subcategoryDiv, catalogControls.querySelector('.loading-indicator'));
+    const subDiv = document.createElement('div');
+    subDiv.className = 'subcategory-selector';
+    subDiv.innerHTML = `<label>Sottocategorie:</label><div class="subcategory-boxes"></div>`;
 
-        // Add click events for subcategory boxes
-        subcategoryDiv.querySelectorAll('.subcategory-box').forEach(box => {
-            box.addEventListener('click', function() {
-                // Remove active class from all boxes
-                subcategoryDiv.querySelectorAll('.subcategory-box').forEach(b => b.classList.remove('active'));
+    const boxContainer = subDiv.querySelector('.subcategory-boxes');
 
-                // Add active class to the clicked box
-                this.classList.add('active');
+    Object.entries(config.subcategories).forEach(([key, obj]) => {
+        const box = document.createElement('div');
+        box.className = 'subcategory-box';
+        box.dataset.subcategory = key;
+        box.textContent = obj.name;
 
-                currentSubcategory = this.dataset.subcategory;
-                currentPage = 0;
-                loadedImages = [];
-                clearProductGrid();
-                loadProducts();
-                updateCatalogTitle();
+        if (currentSubcategory === key) box.classList.add('active');
 
-                // Update URL
-                const newUrl = `${window.location.pathname}?category=${currentCategory}&subcategory=${currentSubcategory}`;
-                window.history.pushState({category: currentCategory, subcategory: currentSubcategory}, '', newUrl);
-            });
+        box.addEventListener('click', () => {
+            document.querySelectorAll('.subcategory-box').forEach(b => b.classList.remove('active'));
+            box.classList.add('active');
+
+            currentSubcategory = key;
+            currentPage = 0;
+            loadedImages = [];
+
+            updateCatalogTitle();
+            clearProductGrid();
+            loadProducts();
+
+            const newUrl = `${window.location.pathname}?category=${currentCategory}&subcategory=${currentSubcategory}`;
+            window.history.pushState({}, '', newUrl);
         });
-    } // End of if
-} // End of function
 
+        boxContainer.appendChild(box);
+    });
+
+    catalogControls.insertBefore(subDiv, catalogControls.querySelector('.loading-indicator'));
+}
 
 
     function updateCatalogTitle() {
@@ -379,46 +407,39 @@ const priceConfig = {
         }
     }
 
-    function checkImageExists(category, number, subcategory = '') {
-        return new Promise((resolve) => {
-            const img = new Image();
-            let imagePath;
-            
-            if (subcategory && category === 'collane') {
-                imagePath = `img/collane/${subcategory}/${number}.webp`;
+function checkImageExists(category, number, subcategory = '') {
+    return new Promise((resolve) => {
+        const img = new Image();
+        let imagePath;
+
+        if (subcategory && categoryConfig[category].subcategories) {
+            imagePath = `img/${category}/${subcategory}/${number}.webp`;
+        } else {
+            imagePath = `img/${category}/${number}.webp`;
+        }
+
+        img.onload = () => resolve({ exists: true, isSoldOut: false });
+
+        img.onerror = () => {
+            const sold = new Image();
+            let soldPath;
+
+            if (subcategory && categoryConfig[category].subcategories) {
+                soldPath = `img/${category}/${subcategory}/${number}_soldout.webp`;
             } else {
-                imagePath = `img/${category}/${number}.webp`;
+                soldPath = `img/${category}/${number}_soldout.webp`;
             }
-            
-            img.onload = function() {
-                resolve({ exists: true, isSoldOut: false });
-            };
-            
-            img.onerror = function() {
-                // Check for sold out version
-                const soldOutImg = new Image();
-                let soldOutPath;
-                
-                if (subcategory && category === 'collane') {
-                    soldOutPath = `img/collane/${subcategory}/${number}_soldout.webp`;
-                } else {
-                    soldOutPath = `img/${category}/${number}_soldout.webp`;
-                }
-                
-                soldOutImg.onload = function() {
-                    resolve({ exists: true, isSoldOut: true });
-                };
-                
-                soldOutImg.onerror = function() {
-                    resolve({ exists: false, isSoldOut: false });
-                };
-                
-                soldOutImg.src = soldOutPath;
-            };
-            
-            img.src = imagePath;
-        });
-    }
+
+            sold.onload = () => resolve({ exists: true, isSoldOut: true });
+            sold.onerror = () => resolve({ exists: false, isSoldOut: false });
+
+            sold.src = soldPath;
+        };
+
+        img.src = imagePath;
+    });
+}
+
 
     function createProductElement(category, number, isSoldOut, subcategory = '') {
         const productDiv = document.createElement('div');
@@ -429,18 +450,21 @@ const priceConfig = {
 
         let imagePath;
         let productTitle;
-        
-        if (subcategory && category === 'collane') {
-            imagePath = isSoldOut ? 
-                `img/collane/${subcategory}/${number}_soldout.webp` : 
-                `img/collane/${subcategory}/${number}.webp`;
+
+        if (subcategory && categoryConfig[category].subcategories) {
+            imagePath = isSoldOut ?
+                `img/${category}/${subcategory}/${number}_soldout.webp` :
+                `img/${category}/${subcategory}/${number}.webp`;
+
             productTitle = `${categoryConfig[category].subcategories[subcategory].name} #${number}`;
         } else {
-            imagePath = isSoldOut ? 
-                `img/${category}/${number}_soldout.webp` : 
+            imagePath = isSoldOut ?
+                `img/${category}/${number}_soldout.webp` :
                 `img/${category}/${number}.webp`;
+
             productTitle = `${categoryConfig[category].name} #${number}`;
         }
+
 
         // Get price
         const price = getProductPrice(category, number, subcategory);
