@@ -131,16 +131,20 @@
             // Add loading spinner
             this.addLoadingSpinner();
 
-            let imagePath;
-            let categoryName;
-            
-            if (this.currentSubcategory && this.currentCategory === 'collane') {
-                imagePath = `img/collane/${this.currentSubcategory}/${this.currentNumber}.webp`;
-                categoryName = categoryConfig[this.currentCategory].subcategories[this.currentSubcategory]?.name || this.currentSubcategory;
-            } else {
-                imagePath = `img/${this.currentCategory}/${this.currentNumber}.webp`;
-                categoryName = categoryConfig[this.currentCategory]?.name || this.currentCategory;
-            }
+        let imagePath;
+        let categoryName;
+
+        // UNIVERSAL SUBCATEGORY LOGIC
+        if (this.currentSubcategory) {
+            imagePath = `img/${this.currentCategory}/${this.currentSubcategory}/${this.currentNumber}.webp`;
+            categoryName =
+                categoryConfig[this.currentCategory]?.subcategories?.[this.currentSubcategory]?.name
+                || this.currentSubcategory;
+        } else {
+            imagePath = `img/${this.currentCategory}/${this.currentNumber}.webp`;
+            categoryName = categoryConfig[this.currentCategory]?.name || this.currentCategory;
+        }
+
 
             // Preload image
             const img = new Image();
