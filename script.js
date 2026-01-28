@@ -38,7 +38,7 @@ const categoryConfig = {
         }
     },
 
-    sandali: { max: 200, name: 'Sandali' },
+    sandali: { max: 300, name: 'Sandali' },
 
     cinture: { max: 100, name: 'Cinture' } // NEW CATEGORY
 };
